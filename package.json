@@ -39,6 +39,7 @@
     "punycode.js",
     "punycode.es6.js"
   ],
+  "types": "punycode.d.ts",
   "scripts": {
     "test": "mocha tests",
     "build": "node scripts/prepublish.js"
