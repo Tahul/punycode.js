@@ -6,6 +6,14 @@
   "main": "punycode.js",
   "jsnext:main": "punycode.es6.js",
   "module": "punycode.es6.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./punycode.es6.js",
+      "require": "./punycode.js",
+      "types": "./punycode.d.ts"
+    }
+  },
   "engines": {
     "node": ">=6"
   },
@@ -37,7 +45,8 @@
   "files": [
     "LICENSE-MIT.txt",
     "punycode.js",
-    "punycode.es6.js"
+    "punycode.es6.js",
+    "punycode.d.ts"
   ],
   "types": "punycode.d.ts",
   "scripts": {
